@@ -31,9 +31,8 @@ Follow these steps to initialize local peer-to-peer blockchain nodes.
 Ensure you have Python 3.x installed on your machine. Install the required dependencies using pip:
 ```bash
 pip install Flask flask-cors pycryptodome requests
+```
 
-python node.py -p 5000
-    ```
 python node.py -p 5000
     ```
 *   **Launch Node Instance 2 (Peer Node on Port 5001):**
