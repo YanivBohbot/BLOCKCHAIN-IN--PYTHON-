@@ -39,7 +39,7 @@ python node.py -p 5000
 *   **Launch Node Instance 2 (Peer Node on Port 5001):**
 ```bash
     python node.py -p 5001
-    ```
+```
 
 ### Step 3: Interacting with the Network
 1.  **Open the Dashboard**: Navigate to `http://localhost:5000` in your web browser to view Node 1's graphical user interface. Open `http://localhost:5001` in a separate tab to view Node 2.
