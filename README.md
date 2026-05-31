@@ -32,9 +32,10 @@ Ensure you have Python 3.x installed on your machine. Install the required depen
 ```bash
 pip install Flask flask-cors pycryptodome requests
 ```
-
+*   **Launch Node Instance 1 (Peer Node on Port 5000):**
+```bash
 python node.py -p 5000
-    ```
+```
 *   **Launch Node Instance 2 (Peer Node on Port 5001):**
 ```bash
     python node.py -p 5001
@@ -57,16 +58,4 @@ python node.py -p 5000
 *   `utility/verification.py`: Validation module containing static evaluation functions that review proof-of-work compliance, transaction structure validity, and entire chain structural health.
 *   `utility/hash_util.py` & `printable.py`: Low-level helpers providing uniform SHA-256 string hashing algorithms and pretty-printing properties for debug environments [cite: yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/utility/hash_util.py, yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/utility/printable.py].
 
----
-
-## 6. Professional Experience Summary (For Resume Reference)
-
-### Senior / Lead Software Developer — Core Python Expertise
-
-This repository showcases production-grade software engineering competencies tailored for strict ATS review metrics and technical hiring managers:
-
-*   **Engineered a decentralized peer-to-peer (P2P) blockchain application** from scratch in Python, implementing core ledger immutability rules, transactional states, and automated data state persistence utilizing structured JSON handling.
-*   **Implemented a robust cryptographic security model** using PyCryptodome to handle asymmetric 1024-bit RSA key generation, ensuring secure wallet setups, transaction authenticity via digital signatures, and SHA-256 data block hashing [cite: yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/wallet.py, yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/utility/hash_util.py].
-*   **Developed a distributed consensus algorithm** utilizing Proof-of-Work puzzles and a decentralized longest-chain conflict resolution protocol via RESTful API broadcasts, mitigating double-spending vulnerabilities and structural state splits across independent nodes [cite: yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/blockchain.py, yanivbohbot/blockchain-in--python-/BLOCKCHAIN-IN--PYTHON--3f40b8c5f68d89ff3909cdcf72ef5fef9ce766ae/BlockChain in Python/utility/verification.py].
-*   **Architected and exposed a REST API network** using Flask to process high-frequency real-time HTTP routing and asynchronous payloads (`POST/GET/DELETE`) to broadcast blocks and sync mempools across multiple terminal instances.
-*   **Built an interactive full-stack management console** integrating front-end UI clients (Vue.js/Axios) with a custom Python-driven backend to support real-time state visualization, key pairing actions, and ledger querying.
+--
